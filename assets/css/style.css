@@ -11,7 +11,7 @@
 
 
 #main-text {
-  width: 35%;
+  width: 100%;
   margin: auto;
   text-align: center;
 padding: 30px 30px;
@@ -80,6 +80,8 @@ h3 {
 
 .cards-vertical {
   flex-direction: column;
+  display: flex;
+  align-items: center;
 }
 
 .card-img {
@@ -110,7 +112,7 @@ footer a {
   #main-text {
       width: 100%;
       margin: auto;
-      padding: 10px 30px;
+      padding: 50px 30px;
   }
 
   h1 {
@@ -124,10 +126,13 @@ footer a {
   #container-cards {
     display: flex;
     flex-direction: column;
-    margin: 0px 10px;
   }
 
   .cards {
     width: 100%;
+  }
+
+  .cards-vertical {
+    margin: 0px 15px;
   }
 }
